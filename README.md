@@ -47,7 +47,7 @@ It demonstrates how APIs can securely handle structured data, process user queri
 [
   {
     "id": 1,
-    "name": "Amina Yusuf",
+    "name": "Tracy Mckoy",
     "skills": ["first aid", "admin"]
   }
 ]
