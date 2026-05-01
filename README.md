@@ -1,7 +1,6 @@
 # Volunteer Management API
 
-A RESTful API built with Flask to manage volunteer data.
-This project demonstrates backend development fundamentals, including API design, structured JSON responses, and filtering data based on user input.
+A backend system built with Flask to manage volunteers, designed as a foundation for real-world event or organisation management systems.
 
 ---
 
@@ -15,20 +14,19 @@ It demonstrates how APIs can securely handle structured data, process user queri
 
 ## Features
 
-* View all volunteers
-* Search volunteers by skill
-* Structured JSON responses
-* Lightweight and easy to extend
-* Designed for backend practice and portfolio demonstration
+RESTful API for managing volunteers
+JSON-based data handling
+Scalable structure for database integration
+Ready for frontend integration
 
 ---
 
 ## Tech Stack
 
-* Python
-* Flask
-* REST API
-* JSON
+Python
+Flask
+JSON (currently)
+SQLite (planned)
 
 ---
 
@@ -65,11 +63,10 @@ cd volunteer-management-api
 
 python -m venv venv
 
-# Activate virtual environment
-# Windows:
+# Windows
 venv\Scripts\activate
 
-# Mac/Linux:
+# Mac/Linux
 source venv/bin/activate
 
 pip install flask
@@ -107,7 +104,7 @@ volunteer-management-api/
 ## Author
 
 **Tracy McKoy**
-Cybersecurity & Python Developer in Training
+Cybersecurity & Python Developer (in Training)
 
 * Open University BSc (Hons) Cyber Security
 * Building hands-on labs in Python, Linux, and networking
@@ -115,6 +112,6 @@ Cybersecurity & Python Developer in Training
 
 ---
 
-## License
+## Licence
 
 This project is for educational and portfolio purposes.
