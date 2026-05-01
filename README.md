@@ -32,10 +32,14 @@ SQLite (planned)
 
 ## API Endpoints
 
-| Method | Endpoint                | Description                |
-| ------ | ----------------------- | -------------------------- |
-| GET    | /volunteers             | Get all volunteers         |
-| GET    | /search?skill=first_aid | Filter volunteers by skill |
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| GET | /volunteers | Get all volunteers |
+| GET | /volunteers/<id> | Get a specific volunteer |
+| GET | /volunteers?skill=first_aid | Filter volunteers by skill |
+| POST | /volunteers | Create a new volunteer |
+| PUT | /volunteers/<id> | Update a volunteer |
+| DELETE | /volunteers/<id> | Delete a volunteer |
 
 ---
 
