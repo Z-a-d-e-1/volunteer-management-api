@@ -89,9 +89,11 @@ http://127.0.0.1:5000
 volunteer-management-api/
 │
 ├── app.py
+├── init_db.py
+├── volunteers.db
+├── requirements.txt
 ├── README.md
-├── .gitignore
-```
+└── .gitignore
 
 ---
 
